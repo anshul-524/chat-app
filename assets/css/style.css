@@ -107,8 +107,12 @@ h2 {
     line-height: 18.75px;
     text-align: center;
     color: #1E71FF;
-
+    margin-right: 5px;
 }
+.mt-124{
+    margin-top: 70px;
+}
+
 
 .ml36 {
     margin-left: 35px;
@@ -121,6 +125,7 @@ h2 {
 
 .mt125 {
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .circle-one {
@@ -230,6 +235,7 @@ h3 {
     line-height: 29.11px;
     text-align: left;
     color: #2B353EB2;
+    margin-left: 25px;
 }
 
 .rate {
@@ -360,12 +366,7 @@ footer {
         padding-left: 12px;
         padding-right: 12px;
     }
-    h2{
-        text-align: center;
-    }
-    .chat{
-        text-align: center;
-    }
+ 
 
    
 }
@@ -388,6 +389,10 @@ footer {
         width: 100%;
         padding-left: 12px;
         padding-right: 12px;
+    }
+    .star{
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .ml36 {
