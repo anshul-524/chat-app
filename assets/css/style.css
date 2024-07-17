@@ -78,7 +78,7 @@
     color: #FFFFFF;
     margin-top: 100px;
     margin-bottom: 20px;
-
+    display: block;
 }
 
 .chat {
@@ -173,6 +173,9 @@ h3 {
     line-height: 29.11px;
     text-align: center;
     color: #2B353EB2;
+    width: 566px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bar-img {
@@ -326,6 +329,9 @@ footer {
 .min-hight-100{
     min-height: 100vh;
 }
+.foter-bar:hover{
+text-decoration: underline;    
+}
 /*---------------------------------------------------------------------------Responsive--------------------------------------------------------------------------------*/
 
 
@@ -388,14 +394,14 @@ footer {
     .ml100{
         margin-left: 2px;
     }
+    .have{
+        font-size: 50px;
+    }
 }
 
 @media (max-width:568px) {
   
-    .star {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
 
 
     .mb-10 {
@@ -440,20 +446,15 @@ footer {
         font-size: 50px;
     }
 
-    .chat {
-        text-align: center;
-    }
-
-    .btns2 {
-        margin-left: 70px;
-    }
+    
 
     .line {
         margin-left: 67px;
     }
     .btns{
-        flex-wrap: wrap;
-        gap: 5px;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
     }
 
 }
