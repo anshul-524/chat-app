@@ -169,7 +169,7 @@ h3 {
     color: #2B353E;
 }
 
-.lines {
+.lorem-para {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -222,16 +222,17 @@ height: 100vh;
     margin-top: 42px;
 }
 
-.perfect {
+.perfect-solution {
     font-family: "Poppins", sans-serif;
     font-size: 45px;
     font-weight: 500;
     line-height: 57.78px;
     text-align: left;
     color: #2B353E;
+    max-width: 476px;
 }
 
-.plans {
+.pricing-plans {
     font-family: "Roboto", sans-serif;
     font-size: 21px;
     font-weight: 400;
@@ -390,14 +391,14 @@ text-decoration: underline;
         width: 100% !important;
     }
 
-    .perfect {
+    .perfect-solution {
         font-size: 40px;
     }
 
     .ml100{
         margin-left: 2px;
     }
-    .have{
+    .hero-sec-head{
         font-size: 50px;
     }
 }
@@ -405,21 +406,19 @@ text-decoration: underline;
 @media (max-width:568px) {
   
 
-
-
-    .mb-10 {
-        margin-bottom: 10px;
+    .hero-sec-button{
+        margin-bottom: 5px;
     }
 
     .f-c {
         flex-direction: column;
     }
 
-    .perfect {
+    .perfect-solution {
         text-align: center;
     }
 
-    .plans {
+    .pricing-plans {
         text-align: center;
     }
 
@@ -445,7 +444,7 @@ text-decoration: underline;
         margin-top: 20px;
     }
 
-    .have{
+    .hero-sec-head{
         font-size: 50px;
     }
 
