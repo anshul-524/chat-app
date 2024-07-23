@@ -71,7 +71,7 @@
     background: #ffffff;
 }
 
-.have{
+.hero-sec-head{
     font-family: "Poppins", sans-serif;
     font-size: 75px;
     font-weight: 600;
@@ -84,7 +84,7 @@
     display: block;
 }
 
-.chat {
+.hero-sec-text{
     font-family: "Roboto", sans-serif;
     font-size: 21px;
     font-weight: 400;
@@ -95,7 +95,7 @@
 
 }
 
-.btn2 {
+.hero-sec-button {
 
     width: 172px;
     height: 50px;
@@ -121,7 +121,7 @@
 }
 
 
-.btn2:hover {
+.hero-sec-button:hover {
     color: #1E71FF;
     background: #E8F1FF;
     border: 1px solid;
