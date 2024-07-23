@@ -12,7 +12,7 @@
     background-color: #1E71FF;
 }
 
-.content {
+.nav-link{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -20,6 +20,9 @@
     text-align: right;
     color: #FFFFFF;
     text-decoration: none;
+}
+.nav-link:hover{
+    color: #FFFFFF;
 }
 
 .logo {
@@ -43,7 +46,7 @@
     color: #FFFFFF;
 }
 
-.btn1 {
+.nav-button {
     width: 111px;
     height: 40px;
     top: 30px;
@@ -63,7 +66,7 @@
 
 }
 
-.btn1:hover:hover {
+.nav-button:hover:hover {
     color: #1E71FF;
     background: #ffffff;
 }
