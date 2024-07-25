@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     list-style-type: none;
 }
@@ -25,20 +26,21 @@
     color: #FFFFFF;
 }
 
-.logo {
+.nav-logo {
     font-family: "Poppins", sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 30.16px;
-    letter-spacing: -0.02em;
-    text-align: left;
+font-size: 26px;
+font-weight: 600;
+line-height: 30.16px;
+letter-spacing: -0.02em;
+text-align: left;
+
     color: #FFFFFF;
     cursor: pointer;
 }
 
-.app {
+.nav-head {
     font-family: 'Poppins', sans-serif;
-    font-size: 26px;
+    font-size: 21px;
     font-weight: 200;
     line-height: 30.16px;
     letter-spacing: -0.02em;
@@ -241,7 +243,7 @@ height: 100vh;
     color: #2B353EB2;
 }
 
-.price {
+.price-business {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -251,7 +253,7 @@ height: 100vh;
     margin-left: 25px;
 }
 
-.rate {
+.use-chatapp {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -267,7 +269,9 @@ height: 100vh;
 .mt180 {
     margin-top: 180px;
 }
-
+.fot-box{
+    padding-top: 90px;
+}
 .foter-logo {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
@@ -295,6 +299,8 @@ height: 100vh;
     line-height: 29.11px;
     text-align: left;
     color: #2B353E;
+    padding-top: 90px;
+    padding-bottom: 20px;
 }
 
 .foter-text {
@@ -316,7 +322,7 @@ height: 100vh;
     text-decoration: none;
 }
 
-.copy {
+.footer-last-text {
     margin-top: 253px;
     font-family: "Roboto", sans-serif;
     font-size: 13px;
